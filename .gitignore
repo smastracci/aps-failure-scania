@@ -1,0 +1,24 @@
+# Data (download from UCI — see README)
+data/*.csv
+data/processed/
+
+# Saved models
+models/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+APS-failure-combined.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Scan config (project-local only)
+.gitleaks.toml
+
+# OS
+.DS_Store
